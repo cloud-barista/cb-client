@@ -32,7 +32,7 @@ cb-client is the Cloud-Barista CLI and client library.
 
 - #### cbctl 빌드 방법
   ```
-  $ cd cb-client
+  $ cd cb-client/cb-ctl
   $ go build cbctl.go
   ```
 
