@@ -45,6 +45,9 @@ cb-client is the Cloud-Barista CLI and client library.
     - 실행 방법 참고
 
 - #### cbctl 실행 방법
+  - Help
+    - `$ ./cbctl`
+    - `$ ./cbctl driver`
   - 기본 설정 파일 사용시
     - `$ ./cbctl connect-info list`
   - 특정 설정 파일 사용시: `-c config_file`
