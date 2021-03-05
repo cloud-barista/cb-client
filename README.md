@@ -2,10 +2,31 @@
 cb-client is the Cloud-Barista CLI and client library.
 
 
+### [개발 및 실행 환경]
+
+- #### Ubuntu 18.04.5 LTS, Ubuntu 20.04.2 LTS 등
+
+- #### Go 개발 환경 설치
+  ```
+  $ sudo apt update
+  $ sudo apt install -y make gcc
+  $ sudo snap install go --classic
+  ```
+  ` sudo apt update; sudo apt install -y make gcc; sudo snap install go --classic `
+
+- #### 소스 설치
+  ```
+  $ mkdir -p ~/go/src/github.com/cloud-barista
+  $ cd ~/go/src/github.com/cloud-barista
+  $ git clone https://github.com/cloud-barista/cb-client.git
+  ```
+  ` mkdir -p ~/go/src/github.com/cloud-barista; cd ~/go/src/github.com/cloud-barista; git clone https://github.com/cloud-barista/cb-client.git `
+
 ### [Cloud-Barista CLI cbctl]
 - #### 원격지 터미널 환경에서 Cloud-Barista 운영
 
 - #### cbctl 빌드 방법
+  - `$ cd cb-client
   - `$ go build cbctl.go`
 
 - #### 대상 서버 설정 방법
