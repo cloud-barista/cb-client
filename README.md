@@ -1,7 +1,7 @@
 # cb-client
 [![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/cloud-barista/cb-spider?label=go.mod)](https://github.com/cloud-barista/cb-client/blob/main/cb-ctl/go.mod)
 [![GoDoc](https://godoc.org/github.com/cloud-barista/cb-client?status.svg)](https://pkg.go.dev/github.com/cloud-barista/cb-client@master)&nbsp;&nbsp;&nbsp;
-[![Release Version](https://img.shields.io/github/v/release/cloud-barista/cb-client)](https://github.com/cloud-barista/cb-client/releases)
+[![Release Version](https://img.shields.io/github/v/release/cloud-barista/cb-spider)](https://github.com/cloud-barista/cb-client/releases)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/cloud-barista/cb-client/blob/master/LICENSE)
 
 
