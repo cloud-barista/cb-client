@@ -26,8 +26,10 @@ cb-client is the Cloud-Barista CLI and client library.
 - #### 원격지 터미널 환경에서 Cloud-Barista 운영
 
 - #### cbctl 빌드 방법
-  - `$ cd cb-client
-  - `$ go build cbctl.go`
+  ```
+  $ cd cb-client
+  $ go build cbctl.go
+  ```
 
 - #### 대상 서버 설정 방법
   - 기본 설정 파일 이용한 설정 방법
