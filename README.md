@@ -14,7 +14,7 @@ cb-client is the Cloud-Barista CLI and client library.
   ```
   ` sudo apt update; sudo apt install -y make gcc; sudo snap install go --classic `
 
-- #### 소스 설치
+- #### 소스 설치 방법
   ```
   $ mkdir -p ~/go/src/github.com/cloud-barista
   $ cd ~/go/src/github.com/cloud-barista
