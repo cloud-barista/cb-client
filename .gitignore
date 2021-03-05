@@ -13,3 +13,13 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+*.swp
+
+.DS_Store
+
+*.log
+
+vendor/*
+
+.history/
