@@ -53,9 +53,8 @@ cb-client is the Cloud-Barista CLI and Go Client Library.
   - 기본 설정 파일 이용한 설정 방법
     - 기본 설정 파일 위치: ./grpc_conf.yaml
     - 대상 서버 설정: server_addr 및 endpoint 정보 설정
-    - 그외 설정: 설정 파일 참조
-  - 참고: 대상 서버별로 설정 파일 유지 및 적용 가능
-    - 실행 방법 참고
+  - 지정 설정 파일 이용한 설정 방법
+    - `-c config_file` 옵션 활용
 
 - ##### cbctl 실행
   - Help
