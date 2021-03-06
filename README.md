@@ -4,19 +4,24 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/cloud-barista/cb-client/blob/master/LICENSE)
 
 
-cb-client is the Cloud-Barista CLI and client library.
+cb-client is the Cloud-Barista CLI and Go Client Library.
 
+#### [클라이언트 구성]
 
-### [개발 및 실행 환경]
+- ##### cbctl: Cloud-Barista CLI, 터미널 환경에서 Cloud-Barista 운영 제공
+- ##### Go API: Cloud-Barista Go API examples, Build시 Client Library 자동 다운로드
 
-- #### 공식환경
+#### [실행 환경]
+
+- ##### 공식환경
   - OS: Ubuntu 20.04
   - Build: Go 1.15
-- #### 시험환경
+
+- ##### 시험환경
   - OS: Ubuntu 18.04, Ubuntu 20.04, Debian 10.6, Windows 10, macOS Catalina 10.15 등
   - Build: latest Go
 
-- #### Go 개발 환경 설치
+- ##### Go 설치
   ```
   $ sudo apt update
   $ sudo apt install -y make gcc
@@ -24,7 +29,7 @@ cb-client is the Cloud-Barista CLI and client library.
   ```
   ` sudo apt update; sudo apt install -y make gcc; sudo snap install go --classic `
 
-- #### 소스 설치 방법
+- ##### 소스 다운로드
   ```
   $ mkdir -p ~/go/src/github.com/cloud-barista
   $ cd ~/go/src/github.com/cloud-barista
@@ -32,16 +37,15 @@ cb-client is the Cloud-Barista CLI and client library.
   ```
   ` mkdir -p ~/go/src/github.com/cloud-barista; cd ~/go/src/github.com/cloud-barista; git clone https://github.com/cloud-barista/cb-client.git `
 
-### [Cloud-Barista CLI cbctl]
-- #### 원격지 터미널 환경에서 Cloud-Barista 운영
+#### [cbctl 실행 방법]
 
-- #### cbctl 빌드 방법
+- ##### cbctl 빌드
   ```
   $ cd cb-client/cb-ctl
   $ go build cbctl.go
   ```
 
-- #### 대상 서버 설정 방법
+- ##### 대상 서버 설정
   - 기본 설정 파일 이용한 설정 방법
     - 기본 설정 파일 위치: ./grpc_conf.yaml
     - 대상 서버 설정: server_addr 및 endpoint 정보 설정
@@ -49,14 +53,14 @@ cb-client is the Cloud-Barista CLI and client library.
   - 참고: 대상 서버별로 설정 파일 유지 및 적용 가능
     - 실행 방법 참고
 
-- #### cbctl 실행 방법
+- ##### cbctl 실행
   - Help
     - `$ ./cbctl`
     - `$ ./cbctl driver`
-  - 기본 설정 파일 사용시
+  - 기본 설정 파일 사용 방법
     - `$ ./cbctl connect-info list`
-  - 특정 설정 파일 사용시: `-c config_file`
-    - `$ ./cbctl -c 54.248.3.145.yaml connect-info list`
+  - 특정 설정 파일 사용 방법: `-c config_file`
+    - `$ ./cbctl -c 123.456.789.10.yaml connect-info list`
 
 - #### 로그 설정 방법
   - 설정 파일 기본 위치: ./conf/log_conf.yaml
@@ -66,8 +70,9 @@ cb-client is the Cloud-Barista CLI and client library.
 
 ***
 
-### [Cloud-Barista Go API]
-- #### Go API 활용 예시
+#### [Go API 활용 방법]
+
+- ##### Go API 활용 예시
   - 클라우드 인프라 연동 정보 통합 관리: [MCIF](https://github.com/cloud-barista/cb-client/tree/main/go-api-examples/1.mcif)
   - 멀티 클라우드 네임스페이스 관리: [MCNS](https://github.com/cloud-barista/cb-client/tree/main/go-api-examples/2.mcns)
   - 멀티 클라우드 인프라 자원 관리: [MCIR](https://github.com/cloud-barista/cb-client/tree/main/go-api-examples/3.mcir)
@@ -78,10 +83,11 @@ cb-client is the Cloud-Barista CLI and client library.
 
 ***
 
-#### [참고: Cloud-Barista 사용자 인터페이스 종류]
--	WebTool: 웹도구 [cb-webtool](https://github.com/cloud-barista/cb-webtool) 참고
--	REST API: [REST 규격 인터페이스](https://github.com/cloud-barista/docs/blob/master/technical_docs/API/CB-User_REST-API.md) 참고
--	Go API: gRPC-based Go API
--	CLI: Cloud-Barista CLI (cbctl)
+#### [참고] Cloud-Barista 사용자 인터페이스 종류
+
+-	##### WebTool: 웹도구 [cb-webtool](https://github.com/cloud-barista/cb-webtool) 참고
+-	##### REST API: [REST 규격 인터페이스](https://github.com/cloud-barista/docs/blob/master/technical_docs/API/CB-User_REST-API.md) 참고
+-	##### CLI: Cloud-Barista CLI (cbctl)
+-	##### Go API: Cloud-Barista Go API(gRPC-based)
 
 ***
