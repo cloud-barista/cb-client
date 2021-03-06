@@ -9,7 +9,12 @@ cb-client is the Cloud-Barista CLI and client library.
 
 ### [개발 및 실행 환경]
 
-- #### Ubuntu 18.04.5 LTS, Ubuntu 20.04.2 LTS 등
+- #### 공식환경
+  - OS: Ubuntu 20.04
+  - Build: Go 1.15
+- #### 시험환경
+  - OS: Ubuntu 18.04, Ubuntu 20.04, Debian 10.6, Windows 10, macOS Catalina 10.15 등
+  - Build: latest Go
 
 - #### Go 개발 환경 설치
   ```
