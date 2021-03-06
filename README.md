@@ -11,6 +11,8 @@ cb-client is the Cloud-Barista CLI and Go Client Library.
 - ##### cbctl: Cloud-Barista CLI, 터미널 환경에서 Cloud-Barista 운영 제공
 - ##### Go API: Cloud-Barista Go API examples, Build시 Client Library 자동 다운로드
 
+*** 
+
 #### [실행 환경]
 
 - ##### 공식환경
@@ -36,6 +38,8 @@ cb-client is the Cloud-Barista CLI and Go Client Library.
   $ git clone https://github.com/cloud-barista/cb-client.git
   ```
   ` mkdir -p ~/go/src/github.com/cloud-barista; cd ~/go/src/github.com/cloud-barista; git clone https://github.com/cloud-barista/cb-client.git `
+
+*** 
 
 #### [cbctl 실행 방법]
 
