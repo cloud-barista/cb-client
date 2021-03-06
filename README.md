@@ -65,7 +65,7 @@ cb-client is the Cloud-Barista CLI and Go Client Library.
   - 특정 설정 파일 사용 방법: `-c config_file`
     - `$ ./cbctl -c 123.456.789.10.yaml connect-info list`
 
-- #### 로그 설정 방법
+- ##### 로그 설정 방법
   - 설정 파일 기본 위치: ./conf/log_conf.yaml
   - 환경 변수 통한 위치: $CBLOG_ROOT/conf/log_conf.yaml  
   - 로그 설정 참고: [설정 정보](https://github.com/cloud-barista/cb-log#%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95)
