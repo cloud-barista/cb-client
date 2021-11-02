@@ -8,4 +8,4 @@ replace (
 	google.golang.org/grpc => google.golang.org/grpc v1.26.0
 )
 
-require github.com/cloud-barista/cb-tumblebug v0.4.6
+require github.com/cloud-barista/cb-tumblebug v0.4.10
