@@ -9,4 +9,4 @@ replace (
 	google.golang.org/grpc => google.golang.org/grpc v1.26.0
 )
 
-require github.com/cloud-barista/cb-tumblebug v0.5.5
+require github.com/cloud-barista/cb-tumblebug v0.6.0

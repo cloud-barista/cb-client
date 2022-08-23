@@ -8,4 +8,4 @@ replace (
 	github.com/dgrijalva/jwt-go => github.com/golang-jwt/jwt v3.2.1+incompatible
 )
 
-require github.com/cloud-barista/cb-spider v0.5.10
+require github.com/cloud-barista/cb-spider v0.6.6
